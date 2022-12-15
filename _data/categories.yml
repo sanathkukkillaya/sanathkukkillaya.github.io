@@ -1,0 +1,15 @@
+# Add Categories here
+all:
+  name: All
+
+guides:
+  name: Guides
+
+jekyll:
+  name: Jekyll
+
+professional_projects:
+  name: Professional Projects
+
+sample_category:
+  name: Sample Category

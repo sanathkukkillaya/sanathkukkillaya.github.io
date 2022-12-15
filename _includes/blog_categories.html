@@ -1,9 +1,17 @@
 
-            {% for tag in site.categories %} {% capture tag_name %}{{ tag | first }}{% endcapture %}
-            <div id="#{{ tag_name | slugize }}"></div>
-            <li class="tag-head">
-                <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">{{ tag_name }}</a>
-            </li>
-            <a name="{{ tag_name | slugize }}"></a>
+            {% for tag in site.categories %} 
+            
+                {% capture tag_name %}{{ tag | first }}{% endcapture %}
+                {% assign category_data = site.data.categories[tag_name] %}
+                
+                <div id="#{{ tag_name | slugize }}"></div>
+                <li class="tag-head">
+                    <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">
+                        {% if category_data %}
+                            {{ category_data.name }}
+                        {% endif %}
+                    </a>
+                </li>
+                <!-- <a name="{{ tag_name | slugize }}"></a> -->
 
             {% endfor %}
