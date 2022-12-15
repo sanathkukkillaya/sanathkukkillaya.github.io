@@ -36,18 +36,18 @@
     <br />
     {{ content }}
     <br />
-    {%- include share_page.html -%}
+    {% comment %}{%- include share_page.html -%}{% endcomment %}
     <!-- Author box -->
     {% assign author = site.data.authors[page.author] %}
       {% if author %}
       {% include author.html %}
     {% endif %}
   </div>
-  {%- if site.hyvor_talk_website_id -%}
+  {% comment %}{%- if site.hyvor_talk_website_id -%}
   <div class="comments">
     {%- include hyvor_comments.html -%}
-   </div>
-    {%- endif -%}
+  </div>
+  {%- endif -%}{% endcomment %}
   <!-- Incomment incase you want to use Disqus
       <div id="disqus_thread"></div>
    -->
