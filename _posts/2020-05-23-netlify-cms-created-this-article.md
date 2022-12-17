@@ -7,11 +7,11 @@ thumbnail: /assets/img/posts/hello.jpg
 category: jekyll
 summary: Demo Content using Netlify CMS
 keywords: using netlify cms with devlopr-jekyll, devlopr jekyll netlify cms, how to use netlify cms
-permalink: /blog/using-netlify-cms/
+permalink: /portfolio/using-netlify-cms/
 ---
 # Hello World ,
 
-This page is a demo that shows everything you can do inside blog posts. Hi !
+This page is a demo that shows everything you can do inside portfolio posts. Hi !
 
 We’ve included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
 

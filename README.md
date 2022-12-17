@@ -13,7 +13,7 @@ Highly Customizable and No Hosting or Maintainence Cost is required !
 
 ![devlopr jekyll](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/screenshot.PNG?raw=true)
 
-devlopr uses Markdown Files to generate data like Blog Posts, Gallery, Shop Products etc. No external database is required.
+devlopr uses Markdown Files to generate data like portfolio Posts, Gallery, Shop Products etc. No external database is required.
 
 
 ### Launch your Static Site using Devlopr in minutes :rocket:
@@ -40,7 +40,7 @@ $ bundle exec jekyll serve
 ```
 Start the server locally at http://127.0.0.1:4000/ or http://localhost:4000/
 
-### Deploy your devlopr-jekyll blog - One Click Deploy
+### Deploy your devlopr-jekyll portfolio - One Click Deploy
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/sujaykundu777/devlopr-jekyll)
 [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sujaykundu777/devlopr-jekyll)
@@ -61,18 +61,18 @@ This Project uses this custom built action for deploying jekyll to github, avail
 #### Features :
 
 - Local CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
-- Onine CMS Admin Support using [Netlify CMS](https://sujaykundu.com/blog/how-to-setup-netlify-cms-with-github-pages-hosted-jekyll-blog/),Forestry, Siteleaf, CloudCannon, Cosmic, Contentful
+- Onine CMS Admin Support using [Netlify CMS](https://sujaykundu.com/portfolio/how-to-setup-netlify-cms-with-github-pages-hosted-jekyll-portfolio/),Forestry, Siteleaf, CloudCannon, Cosmic, Contentful
 - Supports Latest [Jekyll 4.x](https://jekyllrb.com) and [Bundler](https://bundler.io)
 - Stylesheet built using Sass
 - Comments using [Hyvor](https://talk.hyvor.com/) and [Disqus](https://disqus.com/)
 - SEO-optimized
-- Real Time Search - [Algolia](https://sujaykundu.com/blog/adding-real-time-search-to-jekyll-site-using-algolia/)
-- Sell Stuff (Ecommerce) in your Blog using [Snipcart](https://snipcart.com/)
+- Real Time Search - [Algolia](https://sujaykundu.com/portfolio/adding-real-time-search-to-jekyll-site-using-algolia/)
+- Sell Stuff (Ecommerce) in your portfolio using [Snipcart](https://snipcart.com/)
 - Send Newsletters using [Mailchimp](https://mailchimp.com/)
 - Contact Forms Support for [Getform](https://getform.io), [Formspree](https://formspree.io/)
 - Coding Activity using [Wakatime](https://wakatime.com/)
 - Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Vercel](https://vercel.com), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com), [Firebase](https://firebase.com)
-- CI/CD Support using [Travis CI](https://sujaykundu.com/blog/deploy-jekyll-blog-using-github-pages-and-travis-ci/), [Buddy](https://buddy.works/) , [Circle CI](https://circleci.com/)
+- CI/CD Support using [Travis CI](https://sujaykundu.com/portfolio/deploy-jekyll-portfolio-using-github-pages-and-travis-ci/), [Buddy](https://buddy.works/) , [Circle CI](https://circleci.com/)
 
 #### Jekyll Admin
 You can easily manage the site locally using the Jekyll admin : [http://localhost:4000/admin](http://localhost:4000/admin)
@@ -82,8 +82,8 @@ You can easily manage the site locally using the Jekyll admin : [http://localhos
 ## Recent Release Changes (v 0.4.7):
 
 - Minor Bug fixes and optimizations
-- [Added Support for Multi Authors](https://devlopr.netlify.app/blog/added-multi-author-support/#/)
-- [Added Support for Math Symbols](https://devlopr.netlify.app/blog/added-latex-equations-support/#/)
+- [Added Support for Multi Authors](https://devlopr.netlify.app/portfolio/added-multi-author-support/#/)
+- [Added Support for Math Symbols](https://devlopr.netlify.app/portfolio/added-latex-equations-support/#/)
 
 You can check out for all changelogs [here](https://www.buymeacoffee.com/sujaykundu/release-v-0-4-7)
 
@@ -102,11 +102,11 @@ git push
 
 Building the Image :
 
-`docker build -t my-devlopr-jekyll-blog .`
+`docker build -t my-devlopr-jekyll-portfolio .`
 
 Running the container :
 
-`docker run -d -p 4000:4000 -it --volume="$PWD:/srv/jekyll" --name "my_blog" my-devlopr-jekyll-blog:latest jekyll serve --watch`
+`docker run -d -p 4000:4000 -it --volume="$PWD:/srv/jekyll" --name "my_portfolio" my-devlopr-jekyll-portfolio:latest jekyll serve --watch`
 
 ## Using Docker Compose :
 

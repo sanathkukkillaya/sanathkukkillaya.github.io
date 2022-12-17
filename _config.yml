@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is a portfolio based on the Jekyll theme devlopr-jekyll
 
 url: "https://sanathkukkillaya.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /portfolio
 
 # Navigation
 urls:
@@ -13,7 +13,7 @@ urls:
     - text: About
       url: /about
     - text: Portfolio
-      url: /blog
+      url: /portfolio
     # - text: Gallery
     #   url: /gallery
     # - text: Shop
@@ -114,7 +114,7 @@ show_author_project_details: false
 # pagination of posts
 paginate: 4
 per_page: 4
-paginate_path: "/blog/page/:num/"
+paginate_path: "/portfolio/page/:num/"
 
 # minify
 # compress_html:
@@ -150,7 +150,7 @@ defaults:
       type: authors
     values:
       layout: author
-      permalink: /blog/authors/:slug
+      permalink: /portfolio/authors/:slug
 
 # Build settings
 plugins:

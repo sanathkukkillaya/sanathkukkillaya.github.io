@@ -8,20 +8,20 @@ permalink: /get-started/
 
 ## What's Jekyll ?
 
-If you aren’t familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. No more databases, slow loading websites, risk of being hacked…just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! If you are a beginner we recommend you start with [Jekyll’s Docs](https://jekyllrb.com/docs/installation/). Now, if you know how to use Jekyll, let’s move on to using this theme in Jekyll:
+If you aren’t familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and portfolios. No more databases, slow loading websites, risk of being hacked…just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! If you are a beginner we recommend you start with [Jekyll’s Docs](https://jekyllrb.com/docs/installation/). Now, if you know how to use Jekyll, let’s move on to using this theme in Jekyll:
 
 ## Watch Tutorial
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cXBEfpn0qrg?rel=0&amp;controls=0&amp;showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### Steps to create your blog using devlopr-jekyll and Host using Github Pages :
+### Steps to create your portfolio using devlopr-jekyll and Host using Github Pages :
 
 >  **Step 1.**  Fork the repo - [click here](https://github.com/sujaykundu777/devlopr-jekyll/fork)
 
 ![Devlopr Jekyll Repo](/assets/img/posts/fork1.PNG){:class="img-fluid"}
 
-> **Step 2.** Use **your-github-username.github.io** as the new repo  ( Replace your-github-username with yours). Remember if you use the name other than your-github-username.github.io , your blog will be built using gh-pages branch.
+> **Step 2.** Use **your-github-username.github.io** as the new repo  ( Replace your-github-username with yours). Remember if you use the name other than your-github-username.github.io , your portfolio will be built using gh-pages branch.
 
 ![Devlopr Jekyll Repo](/assets/img/posts/fork2.PNG){:class="img-fluid"}
 
@@ -44,7 +44,7 @@ If you aren’t familiar with Jekyll yet, you should know that it is a static si
 > **Step 4.** Open the files using VSCode and edit _config.yml and edit with your details:
 
 - _config.yml file - replace with your own details
-- _posts - Add your blog posts here
+- _posts - Add your portfolio posts here
 - _includes - You can replace the contents of the files with your data. (contains widgets)
 - _assets/img - Add all your images here
 
@@ -113,7 +113,7 @@ Visit [http://localhost:4000](http://localhost:4000) for development server
 
 ### Adding Content
 
-Start populating your blog by adding your .md files in _posts. devlopr-jekyll already has a few examples.
+Start populating your portfolio by adding your .md files in _posts. devlopr-jekyll already has a few examples.
 
 #### YAML Post Example:
 
@@ -151,13 +151,13 @@ You’ll only work with a single file to edit/add theme style: assets/css/main.s
 
 ### Deploy your Changes
 
-Once happy with your blog changes. Push your changes to master branch.
+Once happy with your portfolio changes. Push your changes to master branch.
 
 > **Step 8.** Push Your Local Changes
 
 ```bash
  $ git add .
- $ git commit -m "my new blog using devlopr-jekyll"
+ $ git commit -m "my new portfolio using devlopr-jekyll"
  $ git push origin master
 ```
 
@@ -165,11 +165,11 @@ Visit your Github Repo settings ! Enable master branch as Github Pages Branch :
 
 ![Devlopr Jekyll Repo](/assets/img/posts/fork6.PNG){:class="img-fluid"}
 
-> **Step 9.** Deploy your Blog :
+> **Step 9.** Deploy your portfolio :
 
 ![Devlopr Jekyll Repo](/assets/img/posts/fork7.PNG){:class="img-fluid"}
 
-> Congrats ! On your new shining Blog !
+> Congrats ! On your new shining portfolio !
 
-You can visit the blog using [http://your-github-username.github.io](http://your-github-username.github.io).
+You can visit the portfolio using [http://your-github-username.github.io](http://your-github-username.github.io).
 

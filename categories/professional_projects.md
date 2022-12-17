@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Professional Projects
-permalink: /blog/categories/professional_projects/
+permalink: /portfolio/categories/professional_projects/
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>

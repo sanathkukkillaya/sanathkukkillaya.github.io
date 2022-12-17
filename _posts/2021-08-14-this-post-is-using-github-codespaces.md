@@ -7,7 +7,7 @@ thumbnail: /assets/img/posts/hello.jpg
 category: jekyll
 summary: Learn how to use Github Codespaces with Devlopr
 keywords: using github codespaces with devlopr-jekyll, devlopr jekyll netlify cms, how to use netlify cms
-permalink: /blog/using-github-codespaces
+permalink: /portfolio/using-github-codespaces
 ---
 # Hello World ,
 

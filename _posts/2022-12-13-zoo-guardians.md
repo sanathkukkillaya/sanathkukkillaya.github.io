@@ -9,7 +9,7 @@ tags: jekyll
 thumbnail: /assets/img/posts/code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi categories and tags
 usemathjax: false
-permalink: /blog/zoo-guardians/
+permalink: /portfolio/zoo-guardians/
 ---
 
 This mobile game was developed for the Smithsonian's National Zoo in partnership with Jumpstart Games.

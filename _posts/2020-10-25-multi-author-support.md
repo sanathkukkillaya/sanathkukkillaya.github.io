@@ -8,7 +8,7 @@ category: jekyll
 thumbnail: /assets/img/posts/code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi author
 usemathjax: true
-permalink: /blog/added-multi-author-support/
+permalink: /portfolio/added-multi-author-support/
 ---
 
 ## Now Multiple Authors Can Create Articles:
@@ -128,7 +128,7 @@ author: janedoe
 This is Jane Doe's Article
 ```
 
-Now there will be Authors widget in Blog Sidebar, showing all authors like this :
+Now there will be Authors widget in portfolio Sidebar, showing all authors like this :
 
 ![Author Sidebar Widget](https://res.cloudinary.com/sujaykundu/image/upload/c_scale,fl_progressive,w_400/v1603700133/3_tiuar0.png)
 
