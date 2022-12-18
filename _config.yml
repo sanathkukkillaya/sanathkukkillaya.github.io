@@ -8,10 +8,10 @@ baseurl: "" # the subpath of your site, e.g. /portfolio
 
 # Navigation
 urls:
-    - text: Home
-      url: /
-    - text: About
-      url: /about
+    # - text: Home
+    #   url: /
+    # - text: About
+    #   url: /about
     - text: Portfolio
       url: /portfolio
     # - text: Gallery
@@ -31,7 +31,7 @@ author_email: "sanathkukkillaya@gmail.com"
 author_location: India
 author_website_url: "https://sanathkukkillaya.github.io"
 typewrite-text: Eat. Sleep. Make A Game. Repeat.
-hero_cover_img: matrix-cover.gif # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: linear-cover.gif # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
