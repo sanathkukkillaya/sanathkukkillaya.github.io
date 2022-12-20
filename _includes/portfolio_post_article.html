@@ -38,10 +38,10 @@
     <br />
     {% comment %}{%- include share_page.html -%}{% endcomment %}
     <!-- Author box -->
-    {% assign author = site.data.authors[page.author] %}
+    {% comment %}{% assign author = site.data.authors[page.author] %}
       {% if author %}
       {% include author.html %}
-    {% endif %}
+    {% endif %}{% endcomment %}
   </div>
   {% comment %}{%- if site.hyvor_talk_website_id -%}
   <div class="comments">

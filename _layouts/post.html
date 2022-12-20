@@ -14,7 +14,13 @@ layout: default
       <div class="card-header">About {{site.author}}</div>
       <div class="card-body">
         <p class="author_bio">{{ site.author_bio }}</p>
-        {%- include github_star_button.html -%}
+        {% comment %}{%- include github_star_button.html -%}{% endcomment %}
+        <p><i class="link-icon fas fa-envelope fa-fw"></i> {{site.author_email}}</p>
+        <p class="profile-links">
+          <a class="social-link" href="{{ site.author_website_url }}" target="_blank"><i class="fas fa-globe fa-fw"></i></a>
+          <a class="social-link" href="http://github.com/{{ site.github_username }}" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+          <a class="social-link" href="http://linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><i class="fab fa-linkedin fa-fw"></i></a>
+        </p>
       </div>
     </div>
   </div>
