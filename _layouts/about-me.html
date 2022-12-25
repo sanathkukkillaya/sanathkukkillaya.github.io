@@ -10,7 +10,7 @@ layout: default
       </a>
       <h1 class="profile-name">{{ site.title }}</h1>
       <p class="profile-bio">{{ site.subtitle }}</p>
-      {% if site.github_username %} {%- include github_follow_button.html -%} {%
+      {% if site.unityplay_username %} {%- include unity_play_button.html -%} {%
       endif %}
 
       <p class="profile-links">
@@ -118,7 +118,7 @@ layout: default
     {% if site.author_bio %}
     <div class="card">
       <h1 class="card-title">About</h1>
-      <p>{{ site.author_bio }}</p>
+      <p>{{ site.author_bio | newline_to_br }}</p>
     </div>
     {% endif %} {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">

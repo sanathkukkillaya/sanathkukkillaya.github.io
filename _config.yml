@@ -26,11 +26,12 @@ urls:
 
 author_logo: profile.png
 author: Sanath Kukkillaya
-author_bio: "Hi, my name is Sanath Kukkillaya. I am a professional game developer.  
-
-👀 I’m interested in two things: programming and games. Game development lets me combine both my interests. \n
-🌱 I’m currently working on creating games using Unity engine. \n
-💞️ I’m looking to collaborate on a large scale AA or AAA game with a leading game studio."
+author_bio: |
+    Hi, my name is Sanath Kukkillaya. 
+    🎮 I am a professional game developer.  
+    👀 I'm interested in two things: programming and games. Game development lets me combine both my interests.  
+    🌱 I'm currently working on creating games using Unity engine.  
+    💞️ I'm looking to collaborate on a large scale AA or AAA game with a leading game studio.
 author_email: "sanathkukkillaya@gmail.com"
 author_location: India
 author_website_url: "https://sanathkukkillaya.github.io"
@@ -97,6 +98,7 @@ linkedin_username: sanathkukkillaya
 # telegram_username: johndoe
 # dribbble_username: johndoe
 # flickr_username: johndoe
+unityplay_username: sanathkukkillaya
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
