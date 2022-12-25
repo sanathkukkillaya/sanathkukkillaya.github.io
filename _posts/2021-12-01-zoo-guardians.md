@@ -3,7 +3,7 @@ layout: post
 title:  "Zoo Guardians"
 summary: "A zoo builder game for the Smithsonian National Zoo"
 author: sanathkukkillaya
-date: '2022-12-16 1:35:23 +0530'
+date: '2021-12-01 00:00:00 +0530'
 category: ['professional_projects']
 tags: jekyll
 thumbnail: /assets/img/posts/zoo-guardians-thumbnail.jpg

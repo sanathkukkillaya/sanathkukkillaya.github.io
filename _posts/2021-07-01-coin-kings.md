@@ -3,7 +3,7 @@ layout: post
 title:  "Coin Kings"
 summary: "A mobile slot game with multi-player features"
 author: sanathkukkillaya
-date: '2022-12-16 1:35:23 +0530'
+date: '2021-07-01 00:00:00 +0530'
 category: ['professional_projects']
 tags: jekyll
 thumbnail: /assets/img/posts/coin-kings-thumbnail.webp

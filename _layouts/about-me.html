@@ -18,6 +18,7 @@ layout: default
         <a
           class="social-link"
           href="http://twitter.com/{{ site.twitter_username }}"
+          rel="noopener" target="_blank" 
         >
           <i class="fab fa-twitter"></i>
         </a>
@@ -25,6 +26,7 @@ layout: default
         <a
           class="social-link"
           href="http://facebook.com/{{ site.facebook_username }}"
+          rel="noopener" target="_blank" 
         >
           <i class="fab fa-facebook-f"></i>
         </a>
@@ -32,6 +34,7 @@ layout: default
         <a
           class="social-link"
           href="http://instagram.com/{{ site.instagram_username }}"
+          rel="noopener" target="_blank" 
         >
           <i class="fab fa-instagram"></i>
         </a>
@@ -39,6 +42,7 @@ layout: default
         <a
           class="social-link"
           href="http://medium.com/@{{ site.medium_username }}"
+          rel="noopener" target="_blank" 
         >
           <i class="fab fa-medium-m"></i>
         </a>
@@ -46,6 +50,7 @@ layout: default
         <a
           class="social-link"
           href="http://github.com/{{ site.github_username }}"
+          rel="noopener" target="_blank" 
         >
           <i class="fab fa-github"></i>
         </a>
@@ -53,6 +58,7 @@ layout: default
         <a
           class="social-link"
           href="http://behance.net/{{ site.behance_username }}"
+          rel="noopener" target="_blank" 
         >
           <i class="fab fa-behance"></i>
         </a>
@@ -64,13 +70,14 @@ layout: default
           <i class="fab fa-linkedin-in"></i>
         </a>
         {% endif %} {% if site.telegram_username %}
-        <a class="social-link" href="http://t.me/{{ site.telegram_username }}">
+        <a class="social-link" href="http://t.me/{{ site.telegram_username }}"  rel="noopener" target="_blank" >
           <i class="fab fa-telegram-plane"></i>
         </a>
         {% endif %} {% if site.dribbble_username %}
         <a
           class="social-link"
           href="https://dribbble.com/{{ site.dribbble_username }}"
+          rel="noopener" target="_blank" 
         >
           <i class="fab fa-dribbble"></i>
         </a>
@@ -78,6 +85,7 @@ layout: default
         <a
           class="social-link"
           href="https://www.flickr.com/photos/{{ site.flickr_username }}"
+          rel="noopener" target="_blank" 
         >
           <i class="fab fa-flickr"></i>
         </a>
@@ -85,6 +93,7 @@ layout: default
         <a
           class="social-link"
           href="{{ site.author_website_url }}"
+          rel="noopener" target="_blank" 
         >
           <i class="fas fa-globe"></i>
         </a>
@@ -119,6 +128,7 @@ layout: default
     <div class="card">
       <h1 class="card-title">About</h1>
       <p>{{ site.author_bio | newline_to_br }}</p>
+      <p>{{ site.author_bio_description | newline_to_br }}</p>
     </div>
     {% endif %} {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">

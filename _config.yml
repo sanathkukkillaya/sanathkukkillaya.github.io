@@ -26,12 +26,24 @@ urls:
 
 author_logo: profile.png
 author: Sanath Kukkillaya
-author_bio: |
-    Hi, my name is Sanath Kukkillaya. 
-    🎮 I am a professional game developer.  
-    👀 I'm interested in two things: programming and games. Game development lets me combine both my interests.  
-    🌱 I'm currently working on creating games using Unity engine.  
-    💞️ I'm looking to collaborate on a large scale AA or AAA game with a leading game studio.
+author_bio: Hi, my name is Sanath Kukkillaya. I am a professional game developer.  
+author_bio_description: >
+  I'm interested in two things: programming and games. Interest in programming led me to take up an engineering degree in Computers
+  and Information Science and eventually a career in software development.  
+    
+  I started off as a software engineer working on Microsoft Dynamics CRM customization through a combination of C# and Javascript.  
+  While this was a great experience, I always wanted to do something more in line with my passion for video games.
+  This eventually led me to Unity game engine. Being already experienced in C#, I was quickly able to learn Unity.
+  After around 5 years in enterprise software, I was finally able to pursue my passion as a career choice.  
+    
+  For the past 3 years, I have been a full fledged game developer. Game development lets me combine my interest in programming
+  with my passion for games. I have primarily worked on Unity engine, and have developed numerous mobile games for both Android
+  and iOS platforms. While I haven't yet got a chance to work on a large scale AA or AAA game for PC or console, it does remain on the
+  top of my wishlist.  
+    
+  I have spent close to 8 years of my life as a software engineer. The game of life in game development has just started, and I hope
+  to have a great time playing this game for many long years!
+
 author_email: "sanathkukkillaya@gmail.com"
 author_location: India
 author_website_url: "https://sanathkukkillaya.github.io"

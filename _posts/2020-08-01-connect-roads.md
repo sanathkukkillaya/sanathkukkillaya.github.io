@@ -3,7 +3,7 @@ layout: post
 title:  "Connect Roads"
 summary: "A small puzzle game to build a road to the finish line"
 author: sanathkukkillaya
-date: '2022-12-18 2:35:23 +0530'
+date: '2020-08-01 00:00:00 +0530'
 category: ['personal_projects']
 tags: jekyll
 thumbnail: /assets/img/posts/connect-roads-thumbnail.png

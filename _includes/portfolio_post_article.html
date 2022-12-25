@@ -6,9 +6,9 @@
       Posted by : {% if page.author %}
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
         <span itemprop="name"><a href="{{site.url}}{{site.baseurl}}/portfolio/authors/{{page.author}}">{{ page.author }}</a></span> </span
-      >{% endif %} at
+      >{% endif %} on
       <time datetime="{{ page.date }}" itemprop="datePublished"
-        >{{ page.date | date: "%b %-d, %Y" }}</time
+        >{{ page.date | date: "%b %Y" }}</time
       >
     </p>
     <span
