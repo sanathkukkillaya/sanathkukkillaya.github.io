@@ -19,7 +19,7 @@ This is a real-time multiplayer cricket game involving character card system and
 The game involves a realtime cricket match of 1 over between two players. The person scoring more runs wins the match. Players can use various character cards with multiple bowling strengths and styles during a match. Winning gives more coins, xp and cards which can be then used to upgrade the existing cards or unlock newer ones. Some cards can be used to customize the in-game character appearance as well.
 
 #### My contributions
-- Developing a new UI management system to better manage the UI screens and update to a newer UI theme.
+- Developed a new UI management system to better manage the UI screens and update to a newer UI theme.
 - Reduced the game size by 25% by cleaning up redundant files and optimizing the textures.
 - Developed a pipeline system for simplified build processes for testing and production releases.
 
